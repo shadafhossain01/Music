@@ -1,0 +1,519 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#aa15b6;
+    
+
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    padding-left: 0px;
+}
+ul li{
+    display: inline-block;
+}
+
+/* *****************
+header css
+****************************/
+header{
+    width: 100%;
+    padding: 9px 0px;
+    position: absolute;
+}
+header .navbar-brand{
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+
+header .nav-link{
+    font-family: var(--raleway);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 19px;
+    margin-left: 5px;
+}
+
+header .nav-link:hover{
+    color: var(--primary-color);
+}
+
+
+
+
+/* *****************
+        banner css
+****************************/
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/MUSIC.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+   text-align: right;
+}
+
+.banner h3{
+    color: white;
+    text-transform: uppercase;
+    font-family: var(--raleway);
+    font-size: 50px;
+    position: relative;
+}
+.banner h3::after{
+    position: absolute;
+    content: "";
+    right: 0px;
+    bottom: -8px;
+    width: 140px;
+    height: 6px;
+    background-color: white;
+}
+
+
+
+.banner p{
+    color: white;
+    font-family: var(--raleway);
+    margin-top: 20px;
+    margin-bottom: 60px;
+    line-height: 30px;
+}
+
+.banner a{
+    background-color: #d5d1e2;
+    color: #100667;
+    padding: 15px 35px;
+    font-size: 20px;
+}
+
+
+/* *****************
+         guest  css
+****************************/
+.guest{
+    width: 100%;
+    padding: 60px 0px;
+    background-color: black;
+}
+
+.guest i{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.guest h4{
+    font-family: var(--raleway);
+    font-weight: 400;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.guest p{
+    font-family: var(--raleway);
+    color: white;
+    font-weight: 500;
+    font-size: 20xp;
+}
+
+
+/* *****************
+       group  css
+****************************/
+.group{
+    width: 100%;
+    padding: 70px 0px;
+    background-color: var(--primary-color);
+}
+
+.group i{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.group h5{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.group p{
+    color: white;
+    line-height: 30px;
+}
+
+
+
+/* *****************
+       company   css
+****************************/
+
+.company{
+    width: 100%;
+    padding: 90px 0px;
+    background-color: black;
+}
+
+.company h4{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 35px;
+    word-spacing: 3px;
+}
+
+.company  p{
+    color: white;
+    line-height: 30px;
+    margin-bottom: 110px;
+}
+
+.company-item{
+    background-color: var(--primary-color);
+    padding: 55px 75px;
+}
+.company-item h3{
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.company-item p{
+    font-size: 23px;
+    margin-bottom: 75px;
+}
+
+
+
+.company-item i{
+color: white;
+font-size: 60px;
+vertical-align: middle;
+}
+
+
+.company-item h6{
+    color: white;
+}
+
+.company-item span{
+    color: white;
+}
+
+
+/* *****************
+       section 3   css
+****************************/
+.sec3{
+    width: 100%;
+    background-image: url(../img/banner02.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 170px 0px;
+}
+
+/* *****************
+     do   css
+****************************/
+.do{
+    width: 100%;
+    padding: 90px 0px;
+    background-color: black;
+}
+.do h4{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.do p{
+    color: white;
+    margin-bottom: 90px;
+    position: relative;
+}
+
+.do p::after{
+    position: absolute;
+    content: "";
+    width: 157px;
+    height: 7px;
+    background-color: white;
+    left: 44%;
+    bottom: -35px;
+}
+
+.do  ul li a{
+    color: white;
+    text-transform: capitalize;
+    margin: 0px 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* *****************
+      sec4   css
+****************************/
+
+.sec4{
+    width: 100%;
+    background-image: url(../img/banner06.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 170px 0px;
+}
+
+
+/* *****************
+      quotes  css
+****************************/
+.quotes{
+    width: 100%;
+    padding: 90px 0px;
+    background-color: black;
+}
+
+.quotes i{
+    color: white;
+    font-size: 30px;
+    position: relative;
+}
+.quotes i::after {
+    position: absolute;
+    content: "";
+    top: -45px;
+    width: 119px;
+    height: 9px;
+    background-color: white;
+    left: -126%;
+}
+
+
+
+
+.quotes p{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    line-height: 30px;
+}
+
+.quotes h4{
+    color: white;
+}
+
+
+/* *****************
+      sec5   css
+****************************/
+
+.sec5{
+    width: 100%;
+    background-image: url(../img/banner04.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0px;
+}
+
+
+
+/* *****************
+    number  css
+****************************/
+.number{
+    width: 100%;
+    padding: 110px 0px;
+    background-image: url(../img/banner05.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.number h3{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 90px;
+}
+
+.number p{
+    color: #b7b7b7;
+    font-size: 22px;
+}
+
+.number h5{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.number h2{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+
+
+/* *****************
+   event css
+****************************/
+.event{
+    width: 100%;
+    padding: 90px 0px;
+    background-color: black;
+}
+
+.event h5{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+.event h3{
+    color: white;
+    margin-bottom: 35px;
+}
+.event p{
+    color: white;
+}
+.event .item{
+    margin-bottom: 100px;
+}
+
+
+
+/* *****************
+    date css
+****************************/
+.date{
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 70px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.date-item h5{
+    color: white;
+}
+
+.date-item p{
+    color: white;
+}
+
+.date-item{
+    position: relative;
+    padding-left: 20px;
+}
+.date-item::after{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 100%;
+    left: 0px;
+    background-color: white;
+    top: 0px;
+}
+
+
+/* *****************
+      quotes01  css
+****************************/
+.quotes01{
+    width: 100%;
+    padding: 90px 0px;
+    background-color: black;
+}
+
+.quotes01 i{
+    color: white;
+    font-size: 30px;
+    
+}
+
+.quotes01 p{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    line-height: 30px;
+}
+
+.quotes01 h4{
+    color: white;
+}
+
+.quotes01 .social-icon{
+    margin-top: 40px;
+}
+
+.quotes01 .social-icon ul li i{
+    background-color: #b7b7b7;
+   
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 100%;
+    color: #000 !important ;
+    margin: 0px 7px;
+}
+
+
+
+
+/* *****************
+   footer   css
+****************************/
+
+footer{
+    width: 100%;
+    padding:60px 0px;
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+footer h3{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+footer p{
+    line-height: 28px;
+}
+
+
+
+footer h4{
+    text-transform: uppercase;
+    font-size: 23px;
+    margin-bottom: 25px;
+}
+
+footer ul li{
+    display: block;
+}
+
+
+footer ul  li a{
+    color: white;
+    text-transform: capitalize;
+}
